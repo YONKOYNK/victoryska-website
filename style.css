@@ -120,6 +120,7 @@ nav .nav-links li a:hover::after {
     font-size: 1.3rem;
     margin: 1rem 0;
     animation: slideUp 1.2s ease;
+    color: white;
 }
 
 @keyframes slideDown {
@@ -175,6 +176,10 @@ nav .nav-links li a:hover::after {
     justify-content: space-between;
     box-shadow: 0 5px 20px rgba(0,0,0,0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-items .item h3, p {
+ color: black;
 }
 
 .shop-items .item:hover {
@@ -272,8 +277,14 @@ footer {
     text-align: center;
     padding: 2rem;
     background: #111;
-    color: #fff;
+    color: #ffffff;
     font-size: 0.9rem;
+}
+
+footer p {
+
+    color: #ffffff;
+
 }
 
 /* Responsive */
